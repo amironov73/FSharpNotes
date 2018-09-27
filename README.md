@@ -1,0 +1,2 @@
+# FSharpNotes
+Заметки о F#
