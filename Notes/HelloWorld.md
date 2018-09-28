@@ -12,7 +12,17 @@ let main argv =
 ```f#
 open System
 
+[<EntryPoint>]
 let main argv =
     Console.WriteLine "Hello, world!"
+    0
+```
+
+или так:
+
+```f#
+[<EntryPoint>]
+let main argv =
+    System.Console.WriteLine "Hello, world!"
     0
 ```
